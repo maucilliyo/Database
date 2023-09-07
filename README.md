@@ -21,6 +21,7 @@ The intent is also to maintain high compatibility with MySQL, ensuring a library
 - Deploy
 - To access the Adminer GUI, use the railway public url. For example: `https://<project-name>.up.railway.app/`
 ![login](img/login.png)
+- You can login into adminier with Server as `database` and username & password which you configured during service configuration or you can find under environmental variable for database service in Railway UI.
 - You can utilize the railway internal network to connect to the database from other services.  For example `database.railway.internal` should be your database host.
 - You can view list of databases and tables in the Adminer GUI
 ![adminer](img/database.png)
